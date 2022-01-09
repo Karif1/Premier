@@ -1149,11 +1149,11 @@ input, select, textarea {
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
 			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			-moz-transition: -moz-transform 0.5s ease-in-out, -moz-filter 0.5s ease-in-out;
+			-webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+			-ms-transition: -ms-transform 0.5s ease-in-out, -ms-filter 0.5s ease-in-out;
+			transition: transform 0.5s ease-in-out, filter 0.325s ease-in-out;
+			background-image: url("../../images/front1.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1161,10 +1161,10 @@ input, select, textarea {
 		}
 
 		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
-			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
+			-moz-transform: scale(1.2);
+			-webkit-transform: scale(1.2);
+			-ms-transform: scale(.1.2);
+			transform: scale(.1.2);
 			-moz-filter: blur(0.2rem);
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
