@@ -912,7 +912,7 @@ input, select, textarea {
 				height: 2.25rem;
 				line-height: 2.25rem;
 				text-align: center;
-				width: 2.25rem;
+				width: 3rem;
 			}
 
 				ul.icons li a:hover {
@@ -1145,10 +1145,10 @@ input, select, textarea {
 		}
 
 		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
 			-moz-transition: -moz-transform 0.5s ease-in-out, -moz-filter 0.5s ease-in-out;
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
 			-ms-transition: -ms-transform 0.5s ease-in-out, -ms-filter 0.5s ease-in-out;
@@ -1161,14 +1161,14 @@ input, select, textarea {
 		}
 
 		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.2);
-			-webkit-transform: scale(1.2);
-			-ms-transform: scale(.1.2);
-			transform: scale(.1.2);
-			-moz-filter: blur(0.2rem);
-			-webkit-filter: blur(0.2rem);
-			-ms-filter: blur(0.2rem);
-			filter: blur(0.2rem);
+			-moz-transform: scale(1.5);
+			-webkit-transform: scale(1.5);
+			-ms-transform: scale(.1.5);
+			transform: scale(.1.5);
+			-moz-filter: blur(1rem);
+			-webkit-filter: blur(1rem);
+			-ms-filter: blur(1rem);
+			filter: blur(1rem);
 		}
 
 		body.is-preload #bg:before {
@@ -1295,6 +1295,11 @@ input, select, textarea {
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+			}
+
+			.reallogo {
+				width: 3rem;
+				height: 3.5rem;
 			}
 
 		#header .content {
